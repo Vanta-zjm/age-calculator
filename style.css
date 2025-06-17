@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/*wrapper*/
+.wrapper{
+    width: 760px;
+    background-color: #fff;
+    border-radius: 20px 20px 100px 20px;
+    padding: 40px;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+
+}
+.input{
+    width: 160px;
+}
+label{
+    font-size: 14px;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 2px;
+}
+input{
+    font-family: 'Poppins',sans-serif;
+    width: 132px;
+    height: 72px;
+    border: hsl(0, 0%, 86%) 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 30px;
+    padding-left: 26px;
+    caret-color: hsl(259, 100%, 65%);
+}
+input:focus{
+    border-color: hsl(259, 100%, 65%);
+    outline: none;
+}
+input::placeholder{
+    color: hsl(0, 1%, 44%);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*error*/
+.input.error input {
+    border-color: hsl(0, 100%, 67%);
+}
+.input.error label {
+    color: hsl(0, 100%, 67%);
+}
+.error-text {
+    font-size: 12px;
+    color: hsl(0, 100%, 67%);
+    font-style: italic;
+    margin-top: 6px;
+    height: 16px;
+}
+
+/*middle*/
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+hr{
+    border: none;
+    height: 1px;
+    flex: 1;
+    background-color: hsl(0, 0%, 86%);
+    margin: 50px 0;
+}
+button{
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+/*main*/
+.date{
+    font-size: 90px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1;
+}
+.date span{
+    color: hsl(259, 100%, 65%);
+}
