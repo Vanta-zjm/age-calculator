@@ -3,7 +3,7 @@
 Interactive age calculator with real-time validation and precise date logic. Users can input their birthdate and instantly see their exact age in years, months, and days.
 
 ## 🌐 Live Demo  
-[👉 View Online](https://vanta-zjm.github.io/age-calculator/) ← 启用 Pages 后更新此链接
+[👉 View Online](https://vanta-zjm.github.io/age-calculator/)
 
 ## 📸 Preview  
 ![Project Screenshot](./assets/preview.png)
