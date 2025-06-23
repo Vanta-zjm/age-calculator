@@ -6,7 +6,7 @@ Interactive age calculator with real-time validation and precise date logic. Use
 [👉 View Online](https://vanta-zjm.github.io/age-calculator/)
 
 ## 📸 Preview  
-[Project Screenshot](./assets/preview.png)
+![Project Screenshot](./assets/preview.png)
 
 ## 🛠️ Built With
 - HTML5
